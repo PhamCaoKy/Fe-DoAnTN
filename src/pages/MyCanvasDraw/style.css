@@ -1,0 +1,86 @@
+.bg_btclass_right {
+  background-color: #fffff0;
+  border-radius: 0 15px 15px 0;
+  box-shadow: 1px 1px 5px 0 rgba(153, 153, 153, 1);
+  display: inline-block;
+
+  margin-top: 10px;
+  width: 112px;
+}
+#number_ques {
+  font-size: 24px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+#number_ques .txt {
+  background-color: #348dc1;
+  border-radius: 0 15px 0 0;
+  color: #fff;
+  font-size: 16px;
+  line-height: 225%;
+  padding-top: 5px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+#number_ques span {
+  color: #4c4c4c;
+  width: 100%;
+}
+.point_ques {
+  background-color: #d55;
+  color: #fff;
+  font-size: 16px;
+  line-height: 225%;
+  text-align: center;
+  position: relative;
+}
+.point_ques span._top {
+  background-color: #d55;
+  color: #fff;
+  font-size: 16px;
+  height: 37px;
+  line-height: 37px;
+}
+
+.point_ques ._point_plus {
+  color: #65b24a;
+  position: absolute;
+  top: 35px;
+  display: none;
+}
+
+.point_ques .total_point {
+  background-color: #fffff0;
+  color: #8d8d8d;
+  font-size: 14px;
+  height: 45px;
+  line-height: 100%;
+  padding-top: 10px;
+}
+.point_ques span.t_scr {
+  background-color: #fffff0;
+  color: #d55;
+  display: block;
+  font-size: 55px;
+  height: 75px;
+  line-height: 80px;
+  width: 100%;
+}
+.point_ques .total_point span {
+  font-size: 14px;
+  padding: 5px 0;
+  font-weight: 300;
+  clear: both;
+  width: 100%;
+  color: #d55;
+  display: block;
+}
+
+.divto {
+  height: auto;
+  width: auto;
+
+  padding-top: 10px;
+  padding-bottom: 35px;
+  padding-left: 50px;
+}

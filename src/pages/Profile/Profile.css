@@ -1,0 +1,9 @@
+hr {
+  display: block;
+  border: 10px;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+  color: red;
+  size: 10px;
+}

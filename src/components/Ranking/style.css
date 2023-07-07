@@ -1,0 +1,41 @@
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.ol1 {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 20px;
+}
+
+.li1 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.rank {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  background-color: #ffcc00;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.name {
+  font-size: 18px;
+  color: #333;
+}
