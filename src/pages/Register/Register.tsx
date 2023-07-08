@@ -10,7 +10,7 @@ import { isAxiosBadRequestError } from 'src/utils/utils'
 import { ResponseApi } from 'src/types/utils.type'
 import { useContext } from 'react'
 import { AppContext } from 'src/contexts/app.context'
-import { Console } from 'console'
+
 type FormData = Schema
 export default function Register() {
   const { setIsAuthenticated } = useContext(AppContext)

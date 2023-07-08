@@ -31,9 +31,7 @@ export default function Profile() {
   const nameUser = name?.split('"').join('')
 
   const [completeLesson, setCompleteLesson] = useState<[ResponseCompleteLesson]>([initialResponseCompleteLesson])
-  const date = completeLesson.map((value) => {
-    return value.dateComplete
-  })
+ 
 
   const getCompleteLessonMutation = useMutation({
     mutationFn: (body: IDUSER) => getCompleteLesson(body)

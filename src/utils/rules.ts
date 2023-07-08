@@ -1,6 +1,4 @@
-import type { RegisterOptions, UseFormGetValues } from 'react-hook-form'
 import * as yup from 'yup'
-type Rules = { [key in 'email' | 'password' | 'confirm_password']?: RegisterOptions }
 
 // export const getRules = (getValues?: UseFormGetValues<any>): Rules => ({
 //   email: {
@@ -50,6 +48,5 @@ export const schema = yup.object({
     .max(160, 'Độ dài từ 5-160 kí tự')
     .oneOf([yup.ref('password')], 'Nhập lại password không khớp')
 })
-const loginSchema = schema.omit(['confirm_password'])
-type LoginShema = yup.InferType<typeof loginSchema>
+
 export type Schema = yup.InferType<typeof schema>
