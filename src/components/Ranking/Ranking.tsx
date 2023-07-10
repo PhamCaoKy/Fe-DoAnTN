@@ -30,7 +30,7 @@ export default function DatePicker() {
 
   const result: { name: string; point: number }[] = Object.entries(aggregatedScores).map(([_, value]) => {
     const name: string = value.toString().replace(/[0-9]/g, '').trim()
-    const point: number = parseInt(value.toString().replace(/[^\d]/g, ''))
+    const point: number = parseInt(value.toString().replace(/[^\d]/, ''))
     return { name, point }
   })
   result.sort((a, b) => b.point - a.point)
